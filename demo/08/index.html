@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Hello world</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+
+<script>
+   var socket = io();
+   socket.on('connectToRoom', function (data) {
+      document.body.innerHTML = '';
+      document.write(data);
+   });  
+</script>
+
+<body>Hello world</body>
+
+</html>

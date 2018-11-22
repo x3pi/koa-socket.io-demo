@@ -1,0 +1,38 @@
+{
+  "name": "socket.io-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test01": "nodemon ./demo/01/app.js",
+    "test02": "nodemon ./demo/02/app.js",
+    "test03": "nodemon ./demo/03/app.js",
+    "test04": "nodemon ./demo/04/app.js",
+    "test05": "nodemon ./demo/05/app.js",
+    "test06": "nodemon ./demo/06/app.js",
+    "test07": "nodemon ./demo/07/app.js",
+    "test08": "nodemon ./demo/08/app.js",
+    "test09": "nodemon ./demo/09/app.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x3pi/socket.io-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x3pi/socket.io-demo/issues"
+  },
+  "homepage": "https://github.com/x3pi/socket.io-demo#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-static": "^5.0.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
