@@ -35,3 +35,7 @@ Chạy demo 01 đến 09 sử dụng:
 npm run test01
 ```
 Thay 01 bằng số thứ tự của demo cần chạy
+
+# Tham khảo
+Đây là ví dụ sử dụng socket.io với koa dựa trên các ví dụ được thực hiện với express
+(https://www.tutorialspoint.com/socket.io/)[https://www.tutorialspoint.com/socket.io/]
