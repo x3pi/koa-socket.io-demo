@@ -34,4 +34,4 @@ Chạy demo 01 đến 09 sử dụng:
 ```sh
 npm run test01
 ```
-
+Thay 01 bằng số thứ tự của demo cần chạy
